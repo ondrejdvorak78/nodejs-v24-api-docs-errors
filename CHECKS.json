@@ -1,0 +1,501 @@
+{
+ "checked_utc": "2026-11-16T11:38:59Z",
+ "counts": {
+  "ok": true,
+  "items": {
+   "Findings": {
+    "readme": [
+     16,
+     35,
+     51
+    ],
+    "json": [
+     16,
+     35,
+     51
+    ],
+    "ok": true
+   },
+   "Still present in v24.22.3": {
+    "readme": [
+     15,
+     33,
+     48
+    ],
+    "json": [
+     15,
+     33,
+     48
+    ],
+    "ok": true
+   },
+   "Fixed in v24.22.3": {
+    "readme": [
+     0,
+     0,
+     0
+    ],
+    "json": [
+     0,
+     0,
+     0
+    ],
+    "ok": true
+   },
+   "Wrong at audit (withdrawn)": {
+    "readme": [
+     1,
+     1,
+     2
+    ],
+    "json": [
+     1,
+     1,
+     2
+    ],
+    "ok": true
+   },
+   "Could not check": {
+    "readme": [
+     0,
+     1,
+     1
+    ],
+    "json": [
+     0,
+     1,
+     1
+    ],
+    "ok": true
+   },
+   "HIGH": {
+    "readme": [
+     0,
+     0,
+     0
+    ],
+    "json": [
+     0,
+     0,
+     0
+    ],
+    "ok": true
+   },
+   "MEDIUM": {
+    "readme": [
+     5,
+     11,
+     16
+    ],
+    "json": [
+     5,
+     11,
+     16
+    ],
+    "ok": true
+   },
+   "LOW": {
+    "readme": [
+     7,
+     14,
+     21
+    ],
+    "json": [
+     7,
+     14,
+     21
+    ],
+    "ok": true
+   },
+   "INFO": {
+    "readme": [
+     3,
+     8,
+     11
+    ],
+    "json": [
+     3,
+     8,
+     11
+    ],
+    "ok": true
+   },
+   "Total rated": {
+    "readme": [
+     15,
+     33,
+     48
+    ],
+    "json": [
+     15,
+     33,
+     48
+    ],
+    "ok": true
+   },
+   "second check CONFIRMED / CONFIRMED-BY-SOURCE": {
+    "readme": [
+     12,
+     4
+    ],
+    "json": [
+     12,
+     4
+    ],
+    "ok": true
+   },
+   "main state": {
+    "readme": [
+     48,
+     3
+    ],
+    "json": [
+     48,
+     3
+    ],
+    "ok": true
+   },
+   "README finding entries": {
+    "readme": 51,
+    "json": 51,
+    "ok": true
+   }
+  }
+ },
+ "issue_sections": {
+  "headings_outside_code": 14,
+  "expected": 14,
+  "expected_ids": [
+   "1-7",
+   "1-8",
+   "1-9",
+   "2-9",
+   "2-10",
+   "2-12",
+   "2-13",
+   "2-14",
+   "2-15",
+   "2-16",
+   "2-19",
+   "2-20",
+   "2-21",
+   "2-29"
+  ],
+  "source_link_missing_for": [],
+  "pr_66378_items_included": [],
+  "v24_only_marked": {
+   "2-13": true,
+   "2-16": true
+  },
+  "1-9_main_rename_noted": true,
+  "ok": true
+ },
+ "issue_chars": {
+  "body": 25613,
+  "file": 25711,
+  "limit": 65536,
+  "ok": true
+ },
+ "quotes_verbatim": {
+  "blocks": 68,
+  "quoted_lines_checked": 183,
+  "not_found": [],
+  "method": "each non-empty quoted line, trimmed, must occur in a line of the fetched doc/api file (README: docs fetched 10:50:57Z; ISSUE_COPY: docs fetched 11:05:51Z)",
+  "ok": true
+ },
+ "forbidden_words": {
+  "terms": {
+   "issue_only": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5",
+    "I6",
+    "I7"
+   ],
+   "all_files": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A5",
+    "A6",
+    "A7",
+    "A8",
+    "A9"
+   ],
+   "categories": {
+    "I": "issue only: commercial wording, contact address or @mention",
+    "A": "all files: internal ids, internal method words, product code name, rating markers, internal paths"
+   },
+   "note": "terms are listed by label so that this file does not itself contain them"
+  },
+  "control": {
+   "planted_terms": 16,
+   "detected": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A5",
+    "A6",
+    "A7",
+    "A8",
+    "A9",
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5",
+    "I6",
+    "I7"
+   ],
+   "every_term_detected": true,
+   "allowed_name_and_links_probe_hits": {}
+  },
+  "files_scanned": [
+   "ISSUE_COPY.md",
+   "README.md",
+   "repro/1-5.mjs",
+   "repro/1-6.mjs",
+   "repro/1-7.mjs",
+   "repro/1-8.mjs",
+   "repro/1-9.mjs",
+   "repro/2-10.mjs",
+   "repro/2-12.mjs",
+   "repro/2-13.mjs",
+   "repro/2-14.mjs",
+   "repro/2-15.mjs",
+   "repro/2-16.mjs",
+   "repro/2-19.mjs",
+   "repro/2-20.mjs",
+   "repro/2-21.mjs",
+   "repro/2-29.mjs",
+   "repro/2-9.mjs",
+   "CHECKS.json"
+  ],
+  "hits": {},
+  "ok": true,
+  "checks_json_self_scan_hits": {}
+ },
+ "links": {
+  "distinct_urls_in_files": 114,
+  "not_requested_urls_inside_quoted_doc_text_or_embedded_examples": [
+   "https://nodejs.org/dist/vX.Y.Z/docs/node-config-schema.json",
+   "https://www.example.com"
+  ],
+  "distinct_pages_requested": 64,
+  "method": "GET, redirects followed",
+  "results": {
+   "https://creativecommons.org/licenses/by/4.0/": {
+    "status": 200
+   },
+   "https://github.com/nodejs/node/blob/main/doc/api/async_hooks.md": {
+    "status": 200
+   },
+   "https://github.com/nodejs/node/blob/main/doc/api/cli.md": {
+    "status": 200
+   },
+   "https://github.com/nodejs/node/blob/main/doc/api/crypto.md": {
+    "status": 200
+   },
+   "https://github.com/nodejs/node/blob/main/doc/api/deprecations.md": {
+    "status": 200
+   },
+   "https://github.com/nodejs/node/blob/main/doc/api/diagnostics_channel.md": {
+    "status": 200
+   },
+   "https://github.com/nodejs/node/blob/main/doc/api/environment_variables.md": {
+    "status": 200
+   },
+   "https://github.com/nodejs/node/blob/main/doc/api/esm.md": {
+    "status": 200
+   },
+   "https://github.com/nodejs/node/blob/main/doc/api/fs.md": {
+    "status": 200
+   },
+   "https://github.com/nodejs/node/blob/main/doc/api/http.md": {
+    "status": 200
+   },
+   "https://github.com/nodejs/node/blob/main/doc/api/http2.md": {
+    "status": 200
+   },
+   "https://github.com/nodejs/node/blob/main/doc/api/inspector.md": {
+    "status": 200
+   },
+   "https://github.com/nodejs/node/blob/main/doc/api/module.md": {
+    "status": 200
+   },
+   "https://github.com/nodejs/node/blob/main/doc/api/n-api.md": {
+    "status": 200
+   },
+   "https://github.com/nodejs/node/blob/main/doc/api/net.md": {
+    "status": 200
+   },
+   "https://github.com/nodejs/node/blob/main/doc/api/packages.md": {
+    "status": 200
+   },
+   "https://github.com/nodejs/node/blob/main/doc/api/perf_hooks.md": {
+    "status": 200
+   },
+   "https://github.com/nodejs/node/blob/main/doc/api/quic.md": {
+    "status": 200
+   },
+   "https://github.com/nodejs/node/blob/main/doc/api/repl.md": {
+    "status": 200
+   },
+   "https://github.com/nodejs/node/blob/main/doc/api/single-executable-applications.md": {
+    "status": 200
+   },
+   "https://github.com/nodejs/node/blob/main/doc/api/stream.md": {
+    "status": 200
+   },
+   "https://github.com/nodejs/node/blob/main/doc/api/stream_iter.md": {
+    "status": 200
+   },
+   "https://github.com/nodejs/node/blob/main/doc/api/test.md": {
+    "status": 200
+   },
+   "https://github.com/nodejs/node/blob/main/doc/api/tls.md": {
+    "status": 200
+   },
+   "https://github.com/nodejs/node/blob/main/doc/api/url.md": {
+    "status": 200
+   },
+   "https://github.com/nodejs/node/blob/main/doc/api/vm.md": {
+    "status": 200
+   },
+   "https://github.com/nodejs/node/blob/main/doc/api/webcrypto.md": {
+    "status": 200
+   },
+   "https://github.com/nodejs/node/blob/main/doc/api/webstreams.md": {
+    "status": 200
+   },
+   "https://github.com/nodejs/node/blob/main/doc/api/zlib.md": {
+    "status": 200
+   },
+   "https://github.com/nodejs/node/blob/v24.22.3/doc/api/single-executable-applications.md": {
+    "status": 200
+   },
+   "https://github.com/nodejs/node/blob/v24.22.3/doc/api/stream_iter.md": {
+    "status": 200
+   },
+   "https://github.com/nodejs/node/issues/67509": {
+    "status": 200
+   },
+   "https://github.com/nodejs/node/pull/66378": {
+    "status": 200
+   },
+   "https://github.com/ondrejdvorak78/nodejs-v24-api-docs-errors": {
+    "status": 404
+   },
+   "https://nacodex.help/samples/nodejs-api-docs-1/": {
+    "status": 200,
+    "sha256": "75337eac2cdc4b30e28855776adb05452aca969513d6010be0f82721eda6fa6a"
+   },
+   "https://nacodex.help/samples/nodejs-api-docs-2/": {
+    "status": 200,
+    "sha256": "2740621253199b4a4ca0a4b9a9e2eb3e64afc1555a4e19c096778e9f5172f49c"
+   },
+   "https://nodejs.org/docs/latest-v24.x/api/async_hooks.html": {
+    "status": 200
+   },
+   "https://nodejs.org/docs/latest-v24.x/api/cli.html": {
+    "status": 200
+   },
+   "https://nodejs.org/docs/latest-v24.x/api/crypto.html": {
+    "status": 200
+   },
+   "https://nodejs.org/docs/latest-v24.x/api/deprecations.html": {
+    "status": 200
+   },
+   "https://nodejs.org/docs/latest-v24.x/api/diagnostics_channel.html": {
+    "status": 200
+   },
+   "https://nodejs.org/docs/latest-v24.x/api/environment_variables.html": {
+    "status": 200
+   },
+   "https://nodejs.org/docs/latest-v24.x/api/esm.html": {
+    "status": 200
+   },
+   "https://nodejs.org/docs/latest-v24.x/api/fs.html": {
+    "status": 200
+   },
+   "https://nodejs.org/docs/latest-v24.x/api/http.html": {
+    "status": 200
+   },
+   "https://nodejs.org/docs/latest-v24.x/api/http2.html": {
+    "status": 200
+   },
+   "https://nodejs.org/docs/latest-v24.x/api/inspector.html": {
+    "status": 200
+   },
+   "https://nodejs.org/docs/latest-v24.x/api/module.html": {
+    "status": 200
+   },
+   "https://nodejs.org/docs/latest-v24.x/api/n-api.html": {
+    "status": 200
+   },
+   "https://nodejs.org/docs/latest-v24.x/api/net.html": {
+    "status": 200
+   },
+   "https://nodejs.org/docs/latest-v24.x/api/packages.html": {
+    "status": 200
+   },
+   "https://nodejs.org/docs/latest-v24.x/api/perf_hooks.html": {
+    "status": 200
+   },
+   "https://nodejs.org/docs/latest-v24.x/api/repl.html": {
+    "status": 200
+   },
+   "https://nodejs.org/docs/latest-v24.x/api/single-executable-applications.html": {
+    "status": 200
+   },
+   "https://nodejs.org/docs/latest-v24.x/api/stream.html": {
+    "status": 200
+   },
+   "https://nodejs.org/docs/latest-v24.x/api/stream_iter.html": {
+    "status": 200
+   },
+   "https://nodejs.org/docs/latest-v24.x/api/test.html": {
+    "status": 200
+   },
+   "https://nodejs.org/docs/latest-v24.x/api/tls.html": {
+    "status": 200
+   },
+   "https://nodejs.org/docs/latest-v24.x/api/url.html": {
+    "status": 200
+   },
+   "https://nodejs.org/docs/latest-v24.x/api/vm.html": {
+    "status": 200
+   },
+   "https://nodejs.org/docs/latest-v24.x/api/webcrypto.html": {
+    "status": 200
+   },
+   "https://nodejs.org/docs/latest-v24.x/api/webstreams.html": {
+    "status": 200
+   },
+   "https://nodejs.org/docs/latest-v24.x/api/zlib.html": {
+    "status": 200
+   },
+   "https://webassembly.github.io/spec/core/text/modules.html": {
+    "status": 200
+   }
+  },
+  "nacodex_home": {
+   "status": 200,
+   "sha256": "7025d31e12887a0c25221a6764b3075936752c6a875eda12ccb7fa0a1e9672b3"
+  },
+  "nacodex_pages_differ_from_home": true,
+  "not_200_excluding_future_repo": {},
+  "future_repo_url": {
+   "url": "https://github.com/ondrejdvorak78/nodejs-v24-api-docs-errors",
+   "status": 404,
+   "note": "the repository is not published yet; it resolves once it is created"
+  },
+  "github_api_calls": 0,
+  "ok": true
+ },
+ "ok": true
+}
