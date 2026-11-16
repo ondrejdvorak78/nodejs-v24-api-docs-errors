@@ -1526,7 +1526,7 @@ The findings were first posted on 16 November 2026 as one issue, [nodejs/node#67
 
 No comment in the thread addressed the content of the findings. The original issue described its source as an audit service and linked to it. This re-report removes that wording: the issue text in `ISSUE_COPY.md` gives each problem with its quote, its reproduction and a suggested change, and names the source of the findings in one line.
 
-The re-report was posted on 16 November 2026 as [nodejs/node#67518](https://github.com/nodejs/node/issues/67518). A copy is open as an issue in this repository, so the discussion can continue here whatever happens there.
+The re-report was posted on 16 November 2026 as [nodejs/node#67518](https://github.com/nodejs/node/issues/67518). A copy of its text is kept in this repository as ISSUE_COPY.md, so the record stays available whatever happens there.
 
 ## Reproducing
 
